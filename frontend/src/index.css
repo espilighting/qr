@@ -1,0 +1,92 @@
+/* General */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  color: #007BFF;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="number"] {
+  width: 80px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Contenedor de login */
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor de scanner */
+.scanner-container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Resultados del QR */
+.qr-result {
+  margin-top: 1rem;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Errores */
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Mensajes de éxito */
+.success {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+
+.actions {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Formularios */
+.incidencia-form, .admin-form {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}

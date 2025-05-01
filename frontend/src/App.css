@@ -1,0 +1,75 @@
+.container {
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.qr-reader {
+  margin-bottom: 1rem;
+}
+
+.result-box {
+  background: #f2f2f2;
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #2c7be5;
+  color: white;
+  cursor: pointer;
+  width: 45%;
+}
+
+.btn:hover {
+  background-color: #1a5fcc;
+}
+
+.form-section {
+  margin-bottom: 2rem;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
+  margin: 0.3rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .btn {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0.5rem;
+  }
+}
